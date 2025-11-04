@@ -64,3 +64,22 @@ def comprobarCaracteresEspeciais(contrasinal):
         if caracter in especiais:
             return True
     return False
+
+
+
+def menu():
+    while True:
+        print("Opciones:")
+        print ("1. Rojo")
+        print ("2. Verde")
+        print ("3. Amarillo")
+        print ("4. Salir")
+        opcion=int(input("Elige una opción: "))
+        if opcion == 1:
+            print("Has elegido el Rojo")
+        elif opcion == 2:
+            print("Has elegido el Verde")
+        elif opcion == 3:
+            print("Has elegido el Amarillo")
+
+menu()
